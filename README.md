@@ -82,10 +82,7 @@ Color::make('Color')
 
 ## Credits
 
-- [Tarvo Reinpalu](https://github.com/tarpsvo)
-- [Timothy Asp](https://github.com/timothyasp)
-- [Don Gilbert](https://github.com/dongilbert)
-- [marvinrabe](https://github.com/marvinrrabe)
+- Based on [outl1ne/nova-color-field](https://github.com/outl1ne/nova-color-field)
 
 ## License
 
