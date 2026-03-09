@@ -1,14 +1,14 @@
 # Nova Color Field
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/outl1ne/nova-color-field.svg?style=flat-square)](https://packagist.org/packages/outl1ne/nova-color-field)
-[![Total Downloads](https://img.shields.io/packagist/dt/outl1ne/nova-color-field.svg?style=flat-square)](https://packagist.org/packages/outl1ne/nova-color-field)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/datomatic/nova-color-field.svg?style=flat-square)](https://packagist.org/packages/datomatic/nova-color-field)
+[![Total Downloads](https://img.shields.io/packagist/dt/datomatic/nova-color-field.svg?style=flat-square)](https://packagist.org/packages/datomatic/nova-color-field)
 
 This [Laravel Nova](https://nova.laravel.com/) package adds a color picker to Nova's arsenal of fields.
 
 ## Requirements
 
-- `php: >=8.0`
-- `laravel/nova: ^4.0`
+- `php: >=8.1`
+- `laravel/nova: ^5.0`
 
 ## Features
 
@@ -26,7 +26,7 @@ Forked from [timothyasp/nova-color-field](https://github.com/timothyasp/nova-col
 Install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require outl1ne/nova-color-field
+composer require datomatic/nova-color-field
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ composer require outl1ne/nova-color-field
 ### General
 
 ```php
-use Outl1ne\NovaColorField\Color;
+use Datomatic\NovaColorField\Color;
 
 public function fields(Request $request) {
     Color::make('Color'),
@@ -48,7 +48,7 @@ Available themes: `chrome, compactTheme, grayscale, material, photoshop, sketch,
 See the theme demos [here](http://xiaokaike.github.io/vue-color/).
 
 ```php
-use Outl1ne\NovaColorField\Color;
+use Datomatic\NovaColorField\Color;
 
 public function fields(Request $request) {
     Color::make('Color')->photoshop(),
@@ -82,7 +82,7 @@ Color::make('Color')
 
 ## Credits
 
-- Based on [outl1ne/nova-color-field](https://github.com/outl1ne/nova-color-field)
+- Based on [datomatic/nova-color-field](https://github.com/datomatic/nova-color-field)
 
 ## License
 

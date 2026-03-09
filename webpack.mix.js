@@ -10,4 +10,4 @@ mix
   .js('resources/js/field.js', 'js')
   .vue({ version: 3 })
   .postCss('resources/css/field.css', 'dist/css/', [postcssImport(), tailwindcss('tailwind.config.js')])
-  .nova('outl1ne/nova-color-fields');
+  .nova('datomatic/nova-color-fields');

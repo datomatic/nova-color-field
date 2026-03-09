@@ -1,6 +1,6 @@
 <?php
 
-namespace Outl1ne\NovaColorField;
+namespace Datomatic\NovaColorField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

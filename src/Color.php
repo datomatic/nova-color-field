@@ -1,6 +1,6 @@
 <?php
 
-namespace Outl1ne\NovaColorField;
+namespace Datomatic\NovaColorField;
 
 use Exception;
 use Laravel\Nova\Fields\Field;

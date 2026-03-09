@@ -10,11 +10,10 @@
   "devDependencies": {
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
-    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/vue3": "^2.0.0",
     "@vue/babel-plugin-jsx": "^1.1.1",
     "axios": "^0.27.2",
     "cross-env": "^7.0.3",
-    "form-backend-validation": "^2.4.0",
     "laravel-mix": "^6.0.43",
     "prettier": "^2.6.2",
     "resolve-url-loader": "^5.0.0",
