@@ -2,7 +2,7 @@
   <DefaultField :field="currentField" :errors="errors" :show-help-text="showHelpText">
     <template #field>
       <div
-        class="o1-inline-flex o1-mb-2 color-picker o1-overflow-hidden o1-rounded-lg form-input-bordered"
+        class="o1-inline-flex o1-mb-2 color-picker o1-overflow-hidden o1-rounded-lg o1-border o1-border-gray-300 dark:o1-border-gray-600"
         ref="inputArea"
       >
         <div class="o1-bg-checkered" style="z-index: 2">
@@ -16,7 +16,7 @@
         <input
           :id="field.name"
           type="text"
-          class="o1-w-25 o1-border-0 w-full form-control form-input form-input-bordered o1-rounded-l-none"
+          class="o1-w-25 o1-border-0 w-full form-control form-input o1-rounded-l-none"
           :class="errorClasses"
           :placeholder="placeholder"
           :value="displayValue"
