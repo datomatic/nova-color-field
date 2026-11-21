@@ -1,7 +1,7 @@
 # Nova Color Field
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/datomatic/nova-color-field.svg?style=flat-square)](https://packagist.org/packages/datomatic/nova-color-field)
-[![Total Downloads](https://img.shields.io/packagist/dt/datomatic/nova-color-field.svg?style=flat-square)](https://packagist.org/packages/datomatic/nova-color-field)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/datomatic/nova-color-field.svg?style=for-the-badge)](https://packagist.org/packages/datomatic/nova-color-field)
+[![Total Downloads](https://img.shields.io/packagist/dt/datomatic/nova-color-field.svg?style=for-the-badge)](https://packagist.org/packages/datomatic/nova-color-field)
 
 This [Laravel Nova](https://nova.laravel.com/) package adds a color picker to Nova's arsenal of fields.
 
